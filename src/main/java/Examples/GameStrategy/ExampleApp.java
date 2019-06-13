@@ -13,12 +13,15 @@ public class ExampleApp {
 		blader.doClasCharacter();
 		System.out.println("Skille postaci: ");
 		blader.doSkill();
+		System.out.println("Atak postaci: ");
+		blader.doAttack();
 		System.out.println("\n________Glavier_________");
 		Race glavier = new Glavier();
 		System.out.println("Klasa postaci: ");
 		glavier.doClasCharacter();
 		System.out.println("Skille postaci:");
 		glavier.doSkill();
+
 
 	}
 }

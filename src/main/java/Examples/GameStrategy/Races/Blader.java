@@ -1,6 +1,7 @@
 package Examples.GameStrategy.Races;
 
 import Examples.GameStrategy.Clases.Chinese;
+import Examples.GameStrategy.Equipment.Weapon.Blade;
 import Examples.GameStrategy.Race;
 import Examples.GameStrategy.Skills.Cold;
 import Examples.GameStrategy.Skills.Fire;
@@ -18,6 +19,11 @@ public class Blader extends Race {
 
 		//Clas
 		clasCharacterInterface = new Chinese();
+
+		//Attack
+		name = new Blade();
+		damage = new Blade();
+
 
 
 	}
