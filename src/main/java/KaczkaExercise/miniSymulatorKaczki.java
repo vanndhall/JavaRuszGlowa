@@ -7,10 +7,23 @@ public class miniSymulatorKaczki {
 		dzika.wykonajLec();
 
 
-		System.out.println("_______hodowlana_________");
-		Kaczka hodowlana = new HdowlanaKaczka();
-		hodowlana.latanieInterfejs.lec();
-		hodowlana.wykonajLec();
-		hodowlana.wykonajKwacz();
+		System.out.println("\n_______Model Kaczki_______\n");
+
+		Kaczka model = new ModelKaczki();
+		model.wykonajLec();
+		model.ustawLatanieInterfejs(new LotZNapedemRakietowym());
+		model.wykonajLec();
+
+
+
+
+//		Kaczka dzika = new DzikaKaczka();
+//		dzika.wykonajKwacz();
+//		dzika.wykonajLec();
+//		System.out.println("_______hodowlana_________");
+//		Kaczka hodowlana = new HdowlanaKaczka();
+//		hodowlana.latanieInterfejs.lec();
+//		hodowlana.wykonajLec();
+//		hodowlana.wykonajKwacz();
 	}
 }

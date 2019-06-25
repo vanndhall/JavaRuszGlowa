@@ -4,6 +4,14 @@ public abstract class Kaczka {
 	LatanieInterfejs latanieInterfejs;
 	KwakanieInterfejs kwakanieInterfejs;
 
+	public void ustawLatanieInterfejs (LatanieInterfejs li){
+		latanieInterfejs = li;
+	}
+
+	public void ustawKwakanieInterfejs(KwakanieInterfejs ki){
+		kwakanieInterfejs = ki;
+	}
+
 	public Kaczka(){
 
 	}
