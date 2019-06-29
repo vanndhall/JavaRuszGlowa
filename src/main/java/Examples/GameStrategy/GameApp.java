@@ -3,7 +3,7 @@ package Examples.GameStrategy;
 import Examples.GameStrategy.Races.Blader;
 import Examples.GameStrategy.Races.Glavier;
 
-public class ExampleApp {
+public class GameApp {
 	public static void main(String[] args) {
 
 
@@ -15,6 +15,10 @@ public class ExampleApp {
 		blader.doSkill();
 		System.out.println("Atak postaci: ");
 		blader.doAttack();
+
+
+
+
 		System.out.println("\n________Glavier_________");
 		Race glavier = new Glavier();
 		System.out.println("Klasa postaci: ");

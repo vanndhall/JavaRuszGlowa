@@ -1,5 +1,6 @@
 package StacjaPogodowaExercise.Obserwatorzy;
 
+import StacjaPogodowaExercise.DanePogodowe;
 import StacjaPogodowaExercise.Obserwator;
 import StacjaPogodowaExercise.Podmiot;
 import StacjaPogodowaExercise.WyswietlElement;
@@ -9,6 +10,11 @@ public class PrognozaWyswietlanie implements Obserwator, WyswietlElement {
 	private float aktualneCisnienie = 29.92f;
 	private float ostatnieCisnienie;
 	private Podmiot DanePogodowe;
+
+	public PrognozaWyswietlanie(DanePogodowe danePogodowe) {
+		this.DanePogodowe = danePogodowe;
+		DanePogodowe.zarejestrujObserwatra(this);
+	}
 
 	public void aktualizacja(float temp, float wilgotnosc, float cisnienie) {
 		ostatnieCisnienie = aktualneCisnienie;

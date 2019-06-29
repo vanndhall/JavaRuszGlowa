@@ -1,13 +1,14 @@
 package Examples.GameStrategy;
 
-import Examples.GameStrategy.Equipment.Weapon.Weapon;
+import Examples.GameStrategy.Equipment.Weapon.WeaponInterface;
 
 public abstract class Race {
 	protected SkillInterface skillInterface1;
 	protected SkillInterface skillInterface2;
 	protected SkillInterface skillInterface3;
-	protected Weapon name;
-	protected Weapon damage;
+	protected SkillInterface defaultskillInterface;
+	protected WeaponInterface name;
+	protected WeaponInterface damage;
 
 	protected ClasCharacterInterface clasCharacterInterface;
 

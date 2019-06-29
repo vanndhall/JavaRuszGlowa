@@ -1,4 +1,19 @@
 package Examples.GameStrategy.Equipment.Armors;
 
-public class Helmet {
+public class Helmet implements ClothsInterface {
+	public void name() {
+
+	}
+
+	public void magDeffence() {
+
+	}
+
+	public void phyDeffence() {
+
+	}
+
+	public void degree() {
+
+	}
 }
