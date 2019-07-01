@@ -25,12 +25,12 @@ public class GameApp {
 
 
 
-		System.out.println("\n________Glavier_________");
-		Race glavier = new Glavier();
-		System.out.println("Klasa postaci: ");
-		glavier.doClasCharacter();
-		System.out.println("Skille postaci:");
-		glavier.doSkill();
+//		System.out.println("\n________Glavier_________");
+//		Race glavier = new Glavier();
+//		System.out.println("Klasa postaci: ");
+//		glavier.doClasCharacter();
+//		System.out.println("Skille postaci:");
+//		glavier.doSkill();
 
 
 	}
