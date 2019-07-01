@@ -15,6 +15,12 @@ public class GameApp {
 		blader.doSkill();
 		System.out.println("Atak postaci: ");
 		blader.doAttack();
+		System.out.println("\n");
+
+		System.out.println("Postać nosi na sobie: ");
+		System.out.println("_____________________________");
+		blader.wearingCloths();
+
 
 
 

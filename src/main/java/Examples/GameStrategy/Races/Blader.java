@@ -1,6 +1,7 @@
 package Examples.GameStrategy.Races;
 
 import Examples.GameStrategy.Clases.Chinese;
+import Examples.GameStrategy.Equipment.Armors.Gloves.LetherGloves;
 import Examples.GameStrategy.Equipment.Weapon.Blade;
 import Examples.GameStrategy.Race;
 import Examples.GameStrategy.SkillInterface;
@@ -28,6 +29,9 @@ public class Blader extends Race {
 		//Attack
 		name = new Blade();
 		damage = new Blade();
+
+		//Clothes
+		gloves = new LetherGloves();
 
 
 
