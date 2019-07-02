@@ -14,6 +14,8 @@ public interface Cloths extends Equipment {
 
 	void Deffence();
 
+	void Picture();
+
 
 
 

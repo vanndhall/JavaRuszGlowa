@@ -1,18 +1,18 @@
 package Examples.GameStrategy.Equipment.Degrees;
 
-public class FirstDegree implements DegreeInterface {
+public class FourthDegree implements DegreeInterface {
 	public void name() {
-		System.out.println("Przedmiot pierwszego stopnia");
+		System.out.println("Przedmiot czwartego stopnia");
 	}
 	private void ClothCalculator(double magDef, double phyDef){
-		magDef *= 1;
-		phyDef *= 1;
+		magDef *= 4;
+		phyDef *= 4;
 		System.out.println("Obrona magiczna: "+magDef+"\nObrona fizyczna: "+phyDef);
 
 	}
 	private void WeaponCalculator(double magAtk, double phyAtk){
-		magAtk *=1;
-		phyAtk *=1;
+		magAtk *=4;
+		phyAtk *=4;
 		System.out.println("Atak magiczny: "+magAtk+"\nAtak fizyczny: "+phyAtk);
 	}
 
@@ -24,7 +24,4 @@ public class FirstDegree implements DegreeInterface {
 
 		WeaponCalculator(magAtk, phyAtk);
 	}
-
-
-
 }
