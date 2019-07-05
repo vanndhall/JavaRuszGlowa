@@ -1,4 +1,4 @@
-package Examples.GameStrategy.Equipment.Armors;
+package Examples.GameStrategy.Equipment.Cloths;
 
 import Examples.GameStrategy.Equipment.Equipment;
 

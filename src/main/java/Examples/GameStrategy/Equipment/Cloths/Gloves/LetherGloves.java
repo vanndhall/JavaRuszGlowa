@@ -1,20 +1,23 @@
-package Examples.GameStrategy.Equipment.Armors.Helmets;
+package Examples.GameStrategy.Equipment.Cloths.Gloves;
 
 import Examples.GameStrategy.Equipment.Degrees.DegreeInterface;
 import Examples.GameStrategy.Equipment.Degrees.FirstDegree;
 
-public class LetherHelmet implements Helmet {
-	private String name = "Lether Helmet";
-	private int itemLvl = 3;
+public class LetherGloves implements Gloves {
+
+	private String name = "Lether Gloves";
+	private int itemLvl = 2;
 	private DegreeInterface degreeInterface = new FirstDegree();
 
-	public void wearHelmet() {
-		System.out.println("________________________");
+
+
+	public void wearGloves() {
 		Name();
 		Type();
 		Picture();
 		Deffence();
 		ItemLevel();
+
 	}
 
 	public void Type() {
@@ -26,22 +29,21 @@ public class LetherHelmet implements Helmet {
 	}
 
 	public void ItemLevel() {
-		System.out.println("Wymagany level:" + itemLvl);
+		System.out.println("Wymagany level: "+itemLvl);
 	}
 
 	public void Deffence() {
-		degreeInterface.degreeClothCalculate(magDef,phyDef);
+	degreeInterface.degreeClothCalculate(magDef, phyDef);
 	}
-
 	public void Picture() {
 		System.out.println("____________________\n");
-		System.out.println("  [____________]\n" +
-				" / ___     ___ \\\n" +
-				"/ [_*_]   [_*_] \\\n" +
-				"\\      [ ]      /\n" +
-				" \\|  |  |  |  |/\n" +
-				"  |  |  |  |  |");
+		System.out.println("\t    _ _ _ _\n" +
+				"    __ |^|^|^|^|\n" +
+				"\t\\ \\| | | | |\n" +
+				"\t \\ \t\t   |\n" +
+				"      \\__    __|\n" +
+				"         |   |");
 		System.out.println("____________________");
-
 	}
+
 }

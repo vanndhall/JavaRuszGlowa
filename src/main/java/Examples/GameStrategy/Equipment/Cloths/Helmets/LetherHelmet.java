@@ -1,23 +1,20 @@
-package Examples.GameStrategy.Equipment.Armors.Gloves;
+package Examples.GameStrategy.Equipment.Cloths.Helmets;
 
 import Examples.GameStrategy.Equipment.Degrees.DegreeInterface;
 import Examples.GameStrategy.Equipment.Degrees.FirstDegree;
 
-public class LetherGloves implements Gloves {
-
-	private String name = "Lether Gloves";
-	private int itemLvl = 2;
+public class LetherHelmet implements Helmet {
+	private String name = "Lether Helmet";
+	private int itemLvl = 3;
 	private DegreeInterface degreeInterface = new FirstDegree();
 
-
-
-	public void wearGloves() {
+	public void wearHelmet() {
+		System.out.println("________________________");
 		Name();
 		Type();
 		Picture();
 		Deffence();
 		ItemLevel();
-
 	}
 
 	public void Type() {
@@ -29,21 +26,22 @@ public class LetherGloves implements Gloves {
 	}
 
 	public void ItemLevel() {
-		System.out.println("Wymagany level: "+itemLvl);
+		System.out.println("Wymagany level:" + itemLvl);
 	}
 
 	public void Deffence() {
-	degreeInterface.degreeClothCalculate(magDef, phyDef);
-	}
-	public void Picture() {
-		System.out.println("____________________\n");
-		System.out.println("\t    _ _ _ _\n" +
-				"    __ |^|^|^|^|\n" +
-				"\t\\ \\| | | | |\n" +
-				"\t \\ \t\t   |\n" +
-				"      \\__    __|\n" +
-				"         |   |");
-		System.out.println("____________________");
+		degreeInterface.degreeClothCalculate(magDef,phyDef);
 	}
 
+	public void Picture() {
+		System.out.println("____________________\n");
+		System.out.println("  [____________]\n" +
+				" / ___     ___ \\\n" +
+				"/ [_*_]   [_*_] \\\n" +
+				"\\      [ ]      /\n" +
+				" \\|  |  |  |  |/\n" +
+				"  |  |  |  |  |");
+		System.out.println("____________________");
+
+	}
 }

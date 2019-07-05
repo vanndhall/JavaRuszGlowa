@@ -1,9 +1,9 @@
 package Examples.GameStrategy;
 
-import Examples.GameStrategy.Equipment.Armors.Gloves.Gloves;
-import Examples.GameStrategy.Equipment.Armors.Gloves.LetherGloves;
-import Examples.GameStrategy.Equipment.Armors.Helmets.Helmet;
-import Examples.GameStrategy.Equipment.Equipment;
+import Examples.GameStrategy.Equipment.Cloths.Armors.Armor;
+import Examples.GameStrategy.Equipment.Cloths.Cloths;
+import Examples.GameStrategy.Equipment.Cloths.Gloves.Gloves;
+import Examples.GameStrategy.Equipment.Cloths.Helmets.Helmet;
 import Examples.GameStrategy.Equipment.Weapon.WeaponInterface;
 
 public abstract class Race {
@@ -15,6 +15,8 @@ public abstract class Race {
 	protected WeaponInterface damage;
 	protected Gloves gloves;
 	protected Helmet helmet;
+	protected Armor armor;
+	protected Cloths cloths;
 
 	protected ClasCharacterInterface clasCharacterInterface;
 
@@ -39,8 +41,13 @@ public abstract class Race {
 
 	public void wearingCloths(){
 
-		gloves.wearGloves();
+		//TODO - poprawic interfejs Cloths, dodac metode wear, usunac metody z interfesów dziedziczacych
+
 		helmet.wearHelmet();
+		armor.wearArmor();
+		gloves.wearGloves();
+
+
 	}
 
 
