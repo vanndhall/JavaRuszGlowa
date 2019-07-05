@@ -2,6 +2,7 @@ package Examples.GameStrategy;
 
 import Examples.GameStrategy.Equipment.Armors.Gloves.Gloves;
 import Examples.GameStrategy.Equipment.Armors.Gloves.LetherGloves;
+import Examples.GameStrategy.Equipment.Armors.Helmets.Helmet;
 import Examples.GameStrategy.Equipment.Equipment;
 import Examples.GameStrategy.Equipment.Weapon.WeaponInterface;
 
@@ -13,6 +14,7 @@ public abstract class Race {
 	protected WeaponInterface name;
 	protected WeaponInterface damage;
 	protected Gloves gloves;
+	protected Helmet helmet;
 
 	protected ClasCharacterInterface clasCharacterInterface;
 
@@ -36,7 +38,9 @@ public abstract class Race {
 	}
 
 	public void wearingCloths(){
-	gloves.addGloves();
+
+		gloves.wearGloves();
+		helmet.wearHelmet();
 	}
 
 

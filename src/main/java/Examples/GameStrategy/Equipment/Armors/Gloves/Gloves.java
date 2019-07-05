@@ -4,6 +4,6 @@ import Examples.GameStrategy.Equipment.Armors.Cloths;
 
 public interface Gloves extends Cloths {
 
-	void addGloves();
+	void wearGloves();
 
 }
