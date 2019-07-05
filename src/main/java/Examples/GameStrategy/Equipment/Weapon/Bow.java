@@ -1,12 +1,14 @@
 package Examples.GameStrategy.Equipment.Weapon;
 
 public class Bow implements WeaponInterface {
-	public void name() {
+	final int DAMAGE = 550;
 
+	public void name()  {
+		System .out.println("Łuk");
 	}
 
-	public void doDamage() {
-
+	public void doDamage()  {
+		System.out.println("Uderza z mocą: " + DAMAGE +"hp");
 	}
 
 	public void degree() {

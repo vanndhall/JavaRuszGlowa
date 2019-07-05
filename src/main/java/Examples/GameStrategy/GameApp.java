@@ -15,16 +15,22 @@ public class GameApp {
 		blader.doSkill();
 		System.out.println("Atak postaci: ");
 		blader.doAttack();
+		System.out.println("\n");
+
+		System.out.println("Postać nosi na sobie: ");
+		System.out.println("_____________________________");
+		blader.wearingCloths();
 
 
 
 
-		System.out.println("\n________Glavier_________");
-		Race glavier = new Glavier();
-		System.out.println("Klasa postaci: ");
-		glavier.doClasCharacter();
-		System.out.println("Skille postaci:");
-		glavier.doSkill();
+
+//		System.out.println("\n________Glavier_________");
+//		Race glavier = new Glavier();
+//		System.out.println("Klasa postaci: ");
+//		glavier.doClasCharacter();
+//		System.out.println("Skille postaci:");
+//		glavier.doSkill();
 
 
 	}
