@@ -4,6 +4,7 @@ import Examples.GameStrategy.Clases.Chinese;
 import Examples.GameStrategy.Equipment.Cloths.Armors.LetherArmor;
 import Examples.GameStrategy.Equipment.Cloths.Gloves.LetherGloves;
 import Examples.GameStrategy.Equipment.Cloths.Helmets.LetherHelmet;
+import Examples.GameStrategy.Equipment.Cloths.Pants.LetherPants;
 import Examples.GameStrategy.Equipment.Weapon.Blade;
 import Examples.GameStrategy.Race;
 import Examples.GameStrategy.Skills.Cold;
@@ -33,7 +34,8 @@ public class Blader extends Race {
 		helmet = new LetherHelmet();
 		armor = new LetherArmor();
 		gloves = new LetherGloves();
-
+		armor = new LetherArmor();
+		pants = new LetherPants();
 
 
 	}

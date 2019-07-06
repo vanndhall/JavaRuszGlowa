@@ -9,6 +9,7 @@ public class LetherArmor implements Armor {
 	private DegreeInterface degreeInterface = new FirstDegree();
 
 	public void wearArmor() {
+		System.out.println("________________________");
 		Name();
 		Type();
 		Picture();

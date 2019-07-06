@@ -18,7 +18,7 @@ public class GameApp {
 		System.out.println("\n");
 
 		System.out.println("Postać nosi na sobie: ");
-		System.out.println("_____________________________");
+		//System.out.println("_____________________________");
 		blader.wearingCloths();
 
 
