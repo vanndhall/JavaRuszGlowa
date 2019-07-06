@@ -2,6 +2,7 @@ package Examples.GameStrategy.Races;
 
 import Examples.GameStrategy.Clases.Chinese;
 import Examples.GameStrategy.Equipment.Cloths.Armors.LetherArmor;
+import Examples.GameStrategy.Equipment.Cloths.Boots.LetherBoots;
 import Examples.GameStrategy.Equipment.Cloths.Gloves.LetherGloves;
 import Examples.GameStrategy.Equipment.Cloths.Helmets.LetherHelmet;
 import Examples.GameStrategy.Equipment.Cloths.Pants.LetherPants;
@@ -36,6 +37,7 @@ public class Blader extends Race {
 		gloves = new LetherGloves();
 		armor = new LetherArmor();
 		pants = new LetherPants();
+		boots = new LetherBoots();
 
 
 	}

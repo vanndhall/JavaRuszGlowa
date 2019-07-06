@@ -45,6 +45,7 @@ public class LetherGloves implements Gloves {
 				"      \\__    __|\n" +
 				"         |   |");
 		System.out.println("____________________");
+
 	}
 
 }

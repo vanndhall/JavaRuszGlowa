@@ -1,6 +1,7 @@
 package Examples.GameStrategy;
 
 import Examples.GameStrategy.Equipment.Cloths.Armors.Armor;
+import Examples.GameStrategy.Equipment.Cloths.Boots.Boots;
 import Examples.GameStrategy.Equipment.Cloths.Cloths;
 import Examples.GameStrategy.Equipment.Cloths.Gloves.Gloves;
 import Examples.GameStrategy.Equipment.Cloths.Helmets.Helmet;
@@ -19,6 +20,7 @@ public abstract class Race {
 	protected Armor armor;
 	//protected Cloths cloths; //TODO - uzyc jej w pozniejsyzm czasie zamiast podklas typu helmet, armor
 	protected Pants pants;
+	protected Boots boots;
 
 	protected ClasCharacterInterface clasCharacterInterface;
 
@@ -49,6 +51,7 @@ public abstract class Race {
 		armor.wearArmor();
 		gloves.wearGloves();
 		pants.wearPants();
+		boots.wearBoots();
 
 	}
 

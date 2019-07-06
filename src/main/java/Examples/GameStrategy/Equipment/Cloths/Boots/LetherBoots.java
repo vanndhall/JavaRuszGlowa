@@ -1,14 +1,15 @@
-package Examples.GameStrategy.Equipment.Cloths.Armors;
+package Examples.GameStrategy.Equipment.Cloths.Boots;
 
 import Examples.GameStrategy.Equipment.Degrees.DegreeInterface;
 import Examples.GameStrategy.Equipment.Degrees.FirstDegree;
 
-public class LetherArmor implements Armor {
-	private String name = "Lether Armor";
-	private int itemLvl = 5;
+public class LetherBoots implements Boots {
+
+	private String name = "Lether Boots";
+	private int itemLvl = 2;
 	private DegreeInterface degreeInterface = new FirstDegree();
 
-	public void wearArmor() {
+	public void wearBoots() {
 		System.out.println("________________________");
 		Name();
 		Type();
@@ -35,14 +36,9 @@ public class LetherArmor implements Armor {
 
 	public void Picture() {
 		System.out.println("____________________\n");
-		System.out.println(" ______  _______\n" +
-				"|u_uuu[  ]uuuu_u| \n" +
-				"|u|\\uuuuuuuuu/|u|\n" +
-				"|u| |uuuuuuu| |u|\n" +
-				"|u| |uuuuuuu| |u|\n" +
-				"|u| |uuuuuuu| |u|\n" +
-				"[W] [---*---] [W] ");
+		System.out.println("  |uu| |uu|\n" +
+				" _|uu| |uu|_\n" +
+				"[____] [____]");
 		System.out.println("____________________");
-
 	}
 }
