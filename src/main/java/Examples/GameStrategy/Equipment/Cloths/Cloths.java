@@ -2,19 +2,11 @@ package Examples.GameStrategy.Equipment.Cloths;
 
 import Examples.GameStrategy.Equipment.Equipment;
 
-public interface Cloths extends Equipment {
+public abstract class Cloths extends Equipment {
 
-	double magDef = 1;
-	double phyDef = 1;
-	void Type();
+	protected double magDef = 1;
+	protected double phyDef = 1;
 
-	void Name();
-
-	void ItemLevel();
-
-	void Deffence();
-
-	void Picture();
 
 
 

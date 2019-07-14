@@ -3,7 +3,7 @@ package Examples.GameStrategy.Equipment.Cloths.Helmets;
 import Examples.GameStrategy.Equipment.Degrees.DegreeInterface;
 import Examples.GameStrategy.Equipment.Degrees.FirstDegree;
 
-public class LetherHelmet implements Helmet {
+public class LetherHelmet  {
 	private String name = "Lether Helmet";
 	private int itemLvl = 3;
 	private DegreeInterface degreeInterface = new FirstDegree();
@@ -12,9 +12,9 @@ public class LetherHelmet implements Helmet {
 		System.out.println("________________________");
 		Name();
 		Type();
-		Picture();
-		Deffence();
-		ItemLevel();
+		Picture(name);
+		//Deffence();
+		ItemLevel(itemLvl);
 	}
 
 	public void Type() {
@@ -25,15 +25,15 @@ public class LetherHelmet implements Helmet {
 		System.out.println(name);
 	}
 
-	public void ItemLevel() {
+	public void ItemLevel(int itemLvl) {
 		System.out.println("Wymagany level:" + itemLvl);
 	}
 
-	public void Deffence() {
-		degreeInterface.degreeClothCalculate(magDef,phyDef);
-	}
+//	public void Deffence() {
+//		degreeInterface.degreeClothCalculate(magDef,phyDef);
+//	}
 
-	public void Picture() {
+	public void Picture(String element)  {
 		System.out.println("____________________\n");
 		System.out.println("  [____________]\n" +
 				" / ___     ___ \\\n" +
@@ -43,5 +43,9 @@ public class LetherHelmet implements Helmet {
 				"  |  |  |  |  |");
 		System.out.println("____________________");
 
+	}
+
+	public String wearExcellent() {
+		return "Lether Helmet";
 	}
 }

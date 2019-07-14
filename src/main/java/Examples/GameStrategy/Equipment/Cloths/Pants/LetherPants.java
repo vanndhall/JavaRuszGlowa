@@ -13,9 +13,9 @@ public class LetherPants implements Pants {
 		System.out.println("________________________");
 		Name();
 		Type();
-		Picture();
-		Deffence();
-		ItemLevel();
+		Picture(name);
+		//Deffence();
+		ItemLevel(itemLvl);
 	}
 
 	public void Type() {
@@ -26,15 +26,15 @@ public class LetherPants implements Pants {
 		System.out.println(name);
 	}
 
-	public void ItemLevel() {
+	public void ItemLevel(int itemLvl) {
 		System.out.println("Wymagany level:" + itemLvl);
 	}
 
-	public void Deffence() {
-	degreeInterface.degreeClothCalculate(magDef,phyDef);
-	}
+//	public void Deffence() {
+//	degreeInterface.degreeClothCalculate(magDef,phyDef);
+//	}
 
-	public void Picture() {
+	public void Picture(String element)  {
 		System.out.println("____________________\n");
 		System.out.println("[W][--*--][W]\n" +
 				"|uuuuu!uuuuu| \n" +
@@ -43,5 +43,9 @@ public class LetherPants implements Pants {
 				"|uuuu| |uuuu| \n" +
 				"|uuuu| |uuuu|");
 		System.out.println("____________________");
+	}
+
+	public String wearExcellent() {
+		return "Lether Pants";
 	}
 }

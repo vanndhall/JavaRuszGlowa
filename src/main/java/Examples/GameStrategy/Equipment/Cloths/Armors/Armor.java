@@ -2,6 +2,6 @@ package Examples.GameStrategy.Equipment.Cloths.Armors;
 
 import Examples.GameStrategy.Equipment.Cloths.Cloths;
 
-public interface Armor extends Cloths {
-	void wearArmor();
+public abstract class Armor extends Cloths {
+	public void wear(){};
 }

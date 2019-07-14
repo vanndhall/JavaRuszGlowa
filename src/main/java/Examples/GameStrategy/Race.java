@@ -1,11 +1,13 @@
 package Examples.GameStrategy;
 
 import Examples.GameStrategy.Equipment.Cloths.Armors.Armor;
+import Examples.GameStrategy.Equipment.Cloths.Armors.LetherArmor;
 import Examples.GameStrategy.Equipment.Cloths.Boots.Boots;
-import Examples.GameStrategy.Equipment.Cloths.Cloths;
 import Examples.GameStrategy.Equipment.Cloths.Gloves.Gloves;
 import Examples.GameStrategy.Equipment.Cloths.Helmets.Helmet;
 import Examples.GameStrategy.Equipment.Cloths.Pants.Pants;
+import Examples.GameStrategy.Equipment.Equipment;
+import Examples.GameStrategy.Equipment.SealOfStar;
 import Examples.GameStrategy.Equipment.Weapon.WeaponInterface;
 
 public abstract class Race {
@@ -21,6 +23,12 @@ public abstract class Race {
 	//protected Cloths cloths; //TODO - uzyc jej w pozniejsyzm czasie zamiast podklas typu helmet, armor
 	protected Pants pants;
 	protected Boots boots;
+
+
+
+
+
+
 
 	protected ClasCharacterInterface clasCharacterInterface;
 
@@ -47,11 +55,20 @@ public abstract class Race {
 
 		//TODO - poprawic interfejs Cloths, dodac metode wear, usunac metody z interfesów dziedziczacych
 
-		helmet.wearHelmet();
-		armor.wearArmor();
-		gloves.wearGloves();
-		pants.wearPants();
-		boots.wearBoots();
+		//helmet.wearHelmet();
+		armor.wear();
+		//gloves.wearGloves();
+		//pants.wearPants();
+		//boots.wearBoots();
+
+
+	}
+
+	public void alchemyUpgrade(){
+		System.out.println("\nUpgraded Equipment: ");
+		Equipment sosLetherArmor = new LetherArmor();
+		sosLetherArmor = new SealOfStar(sosLetherArmor);
+		((SealOfStar) sosLetherArmor).wear();
 
 	}
 

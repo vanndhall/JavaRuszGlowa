@@ -15,9 +15,9 @@ public class LetherGloves implements Gloves {
 		System.out.println("________________________");
 		Name();
 		Type();
-		Picture();
-		Deffence();
-		ItemLevel();
+		Picture(name);
+		//Deffence();
+		ItemLevel(itemLvl);
 
 	}
 
@@ -29,14 +29,14 @@ public class LetherGloves implements Gloves {
 		System.out.println(name);
 	}
 
-	public void ItemLevel() {
+	public void ItemLevel(int itemLvl) {
 		System.out.println("Wymagany level: "+itemLvl);
 	}
 
-	public void Deffence() {
-	degreeInterface.degreeClothCalculate(magDef, phyDef);
-	}
-	public void Picture() {
+//	public void Deffence() {
+//	degreeInterface.degreeClothCalculate(magDef, phyDef);
+//	}
+	public void Picture(String element) {
 		System.out.println("____________________\n");
 		System.out.println("\t    _ _ _ _\n" +
 				"    __ |^|^|^|^|\n" +
@@ -48,4 +48,7 @@ public class LetherGloves implements Gloves {
 
 	}
 
+	public String wearExcellent() {
+		return "Lether Gloves";
+	}
 }

@@ -32,12 +32,12 @@ public class Blader extends Race {
 
 		//Clothes
 
-		helmet = new LetherHelmet();
+		//helmet = new LetherHelmet();
 		armor = new LetherArmor();
-		gloves = new LetherGloves();
-		armor = new LetherArmor();
-		pants = new LetherPants();
-		boots = new LetherBoots();
+		//gloves = new LetherGloves();
+		//armor = new LetherArmor();
+		//pants = new LetherPants();
+		//boots = new LetherBoots();
 
 
 	}
