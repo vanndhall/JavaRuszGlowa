@@ -4,12 +4,16 @@ import Examples.GameStrategy.Equipment.Degrees.DegreeInterface;
 import Examples.GameStrategy.Equipment.Degrees.EighthDegree;
 import Examples.GameStrategy.Equipment.Degrees.FirstDegree;
 
-public class LetherArmor extends Armor {
-	private String name = "Lether Armor ";
+public class LeatherArmor extends Armor {
+
+	private String name = "Leather Armor ";
 	private int itemLvl = 5;
 	private String normal= "";
-
 	private DegreeInterface firstDegree = new FirstDegree();
+
+	public String Name(){
+		return name;
+	}
 
 	public void wear() {
 		System.out.println("________________________");
@@ -36,7 +40,5 @@ public class LetherArmor extends Armor {
 				"____________________");
 	}
 
-	public String Name(){
-		return name;
-	};
+
 }

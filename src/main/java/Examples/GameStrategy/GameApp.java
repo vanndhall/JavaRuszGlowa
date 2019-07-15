@@ -1,10 +1,6 @@
 package Examples.GameStrategy;
 
-import Examples.GameStrategy.Equipment.Cloths.Armors.LetherArmor;
-import Examples.GameStrategy.Equipment.Equipment;
-import Examples.GameStrategy.Equipment.SealOfStar;
 import Examples.GameStrategy.Races.Blader;
-import Examples.GameStrategy.Races.Glavier;
 
 public class GameApp {
 	public static void main(String[] args) {

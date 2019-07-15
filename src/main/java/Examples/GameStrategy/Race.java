@@ -1,7 +1,7 @@
 package Examples.GameStrategy;
 
 import Examples.GameStrategy.Equipment.Cloths.Armors.Armor;
-import Examples.GameStrategy.Equipment.Cloths.Armors.LetherArmor;
+import Examples.GameStrategy.Equipment.Cloths.Armors.LeatherArmor;
 import Examples.GameStrategy.Equipment.Cloths.Boots.Boots;
 import Examples.GameStrategy.Equipment.Cloths.Gloves.Gloves;
 import Examples.GameStrategy.Equipment.Cloths.Helmets.Helmet;
@@ -66,7 +66,7 @@ public abstract class Race {
 
 	public void alchemyUpgrade(){
 		System.out.println("\nUpgraded Equipment: ");
-		Equipment sosLetherArmor = new LetherArmor();
+		Equipment sosLetherArmor = new LeatherArmor();
 		sosLetherArmor = new SealOfStar(sosLetherArmor);
 		((SealOfStar) sosLetherArmor).wear();
 
