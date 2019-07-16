@@ -1,7 +1,6 @@
 package Examples.GameStrategy;
 
 import Examples.GameStrategy.Races.Blader;
-import Examples.GameStrategy.Races.Glavier;
 
 public class GameApp {
 	public static void main(String[] args) {
@@ -18,9 +17,11 @@ public class GameApp {
 		System.out.println("\n");
 
 		System.out.println("Postać nosi na sobie: ");
-		System.out.println("_____________________________");
+		//System.out.println("_____________________________");
 		blader.wearingCloths();
 
+		System.out.println("Alchemy UPGRADE: \n");
+		blader.alchemyUpgrade();
 
 
 

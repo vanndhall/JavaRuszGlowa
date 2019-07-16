@@ -1,17 +1,16 @@
 package Examples.GameStrategy.Races;
 
 import Examples.GameStrategy.Clases.Chinese;
-import Examples.GameStrategy.Equipment.Armors.Gloves.LetherGloves;
-import Examples.GameStrategy.Equipment.Armors.Helmets.LetherHelmet;
+import Examples.GameStrategy.Equipment.Cloths.Armors.LeatherArmor;
+import Examples.GameStrategy.Equipment.Cloths.Boots.LeatherBoots;
+import Examples.GameStrategy.Equipment.Cloths.Gloves.LeatherGloves;
+import Examples.GameStrategy.Equipment.Cloths.Helmets.LeatherHelmet;
+import Examples.GameStrategy.Equipment.Cloths.Pants.LeatherPants;
 import Examples.GameStrategy.Equipment.Weapon.Blade;
 import Examples.GameStrategy.Race;
-import Examples.GameStrategy.SkillInterface;
 import Examples.GameStrategy.Skills.Cold;
 import Examples.GameStrategy.Skills.Fire;
 import Examples.GameStrategy.Skills.Force;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Blader extends Race {
 
@@ -32,9 +31,12 @@ public class Blader extends Race {
 		damage = new Blade();
 
 		//Clothes
-		gloves = new LetherGloves();
-		helmet = new LetherHelmet();
 
+		helmet = new LeatherHelmet();
+		armor = new LeatherArmor();
+		gloves = new LeatherGloves();
+		pants = new LeatherPants();
+		boots = new LeatherBoots();
 
 
 	}
