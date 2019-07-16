@@ -12,8 +12,7 @@ public abstract class Excellent extends Equipment {
 		equipment.Picture(element);
 	}
 
-	public void ItemLevel(int lvl) {
-		equipment.ItemLevel(lvl);
+	public void ItemLevel(int lvl) { equipment.ItemLevel(lvl);
 	}
 
 	public void Deffence(double magDef, double phyDef) {

@@ -4,7 +4,7 @@ import Examples.GameStrategy.Equipment.Cloths.Cloths;
 import Examples.GameStrategy.Equipment.Degrees.DegreeInterface;
 import Examples.GameStrategy.Equipment.Degrees.FirstDegree;
 
-public class LeatherBoots extends Cloths {
+public class LeatherBoots extends Boots {
 
 	private String name = "Leather Boots ";
 	private int itemLvl = 5;
@@ -30,7 +30,7 @@ public class LeatherBoots extends Cloths {
 
 	public void Picture(String element) {
 		System.out.println("____________________\n");
-		System.out.println("  |uu| |uu|" + element + "\n" +
+		System.out.println("  |uu| |uu| " + element + "\n" +
 				" _|uu| |uu|_\n" +
 				"[____] [____]");
 		System.out.println("____________________");

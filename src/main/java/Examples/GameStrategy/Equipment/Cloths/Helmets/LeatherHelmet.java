@@ -29,7 +29,7 @@ public class LeatherHelmet extends Helmet {
 
 	public void Picture(String element)  {
 		System.out.println("____________________\n");
-		System.out.println("  [____________]" + element + "\n"+
+		System.out.println("  [____________] " + element + "\n"+
 				" / ___     ___ \\\n" +
 				"/ [_*_]   [_*_] \\\n" +
 				"\\      [ ]      /\n" +

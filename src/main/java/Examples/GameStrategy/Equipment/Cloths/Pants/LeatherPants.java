@@ -30,7 +30,7 @@ public class LeatherPants extends Pants {
 
 	public void Picture(String element)  {
 		System.out.println("____________________\n");
-		System.out.println("[W][--*--][W]" + element + "\n" +
+		System.out.println("[W][--*--][W] " + element + "\n" +
 				"|uuuuu!uuuuu| \n" +
 				"|uuuu/\\uuuuu|\n" +
 				"|uuuu| |uuuu| \n" +

@@ -1,7 +1,6 @@
 package Examples.GameStrategy.Equipment.Cloths.Armors;
 
 import Examples.GameStrategy.Equipment.Degrees.DegreeInterface;
-import Examples.GameStrategy.Equipment.Degrees.EighthDegree;
 import Examples.GameStrategy.Equipment.Degrees.FirstDegree;
 
 public class LeatherArmor extends Armor {

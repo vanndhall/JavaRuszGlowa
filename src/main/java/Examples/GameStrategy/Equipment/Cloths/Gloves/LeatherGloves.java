@@ -30,7 +30,7 @@ public class LeatherGloves extends Gloves {
 	public void Picture(String element) {
 		System.out.println("____________________\n");
 		System.out.println("\t    _ _ _ _\n" +
-				"    __ |^|^|^|^|" + element + "\n"+
+				"    __ |^|^|^|^| " + element + "\n"+
 				"\t\\ \\| | | | |\n" +
 				"\t \\ \t\t   |\n" +
 				"      \\__    __|\n" +

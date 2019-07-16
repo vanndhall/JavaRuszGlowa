@@ -4,8 +4,7 @@ import Examples.GameStrategy.Equipment.Cloths.Cloths;
 
 public abstract class Helmet  extends Cloths {
 
-
-	void wearHelmet(){}
+	public void wear(){}
 
 }
 
