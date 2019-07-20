@@ -58,8 +58,6 @@ public abstract class Race {
 		gloves.wear();
 		pants.wear();
 		boots.wear();
-
-
 	}
 
 	public void alchemyUpgrade(){

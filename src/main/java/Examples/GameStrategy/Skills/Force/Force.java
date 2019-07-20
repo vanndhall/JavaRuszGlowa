@@ -1,8 +1,8 @@
-package Examples.GameStrategy.Skills;
+package Examples.GameStrategy.Skills.Force;
 
 import Examples.GameStrategy.SkillInterface;
 
-public class Force implements SkillInterface {
+public abstract class Force implements SkillInterface {
 	public void addSkill() {
 		System.out.println("Force");
 	}
