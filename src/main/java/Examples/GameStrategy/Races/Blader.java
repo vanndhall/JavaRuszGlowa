@@ -8,9 +8,9 @@ import Examples.GameStrategy.Equipment.Cloths.Helmets.LeatherHelmet;
 import Examples.GameStrategy.Equipment.Cloths.Pants.LeatherPants;
 import Examples.GameStrategy.Equipment.Weapon.Blade;
 import Examples.GameStrategy.Race;
-import Examples.GameStrategy.Skills.Cold;
-import Examples.GameStrategy.Skills.Fire;
-import Examples.GameStrategy.Skills.Force;
+import Examples.GameStrategy.Skills.Cold.Cold;
+import Examples.GameStrategy.Skills.Fire.Fire;
+import Examples.GameStrategy.Skills.Force.Force;
 
 public class Blader extends Race {
 
@@ -21,9 +21,9 @@ public class Blader extends Race {
 
 
 		//skills
-		skillInterface1 = new Fire();
-		skillInterface2 = new Cold();
-		skillInterface3 = new Force();
+		//skillInterface1 = new Fire();
+		//skillInterface2 = new Cold();
+		//skillInterface3 = new Force();
 
 
 		//Attack

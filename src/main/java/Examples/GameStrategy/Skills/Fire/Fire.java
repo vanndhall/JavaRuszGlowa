@@ -1,8 +1,8 @@
-package Examples.GameStrategy.Skills;
+package Examples.GameStrategy.Skills.Fire;
 
 import Examples.GameStrategy.SkillInterface;
 
-public class Fire implements SkillInterface {
+public abstract class Fire implements SkillInterface {
 	public void addSkill() {
 		System.out.println("Fire ");
 	}

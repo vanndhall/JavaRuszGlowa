@@ -3,10 +3,9 @@ package Examples.GameStrategy.Races;
 import Examples.GameStrategy.Clases.European;
 import Examples.GameStrategy.Equipment.Weapon.Staff;
 import Examples.GameStrategy.Race;
-import Examples.GameStrategy.SkillInterface;
-import Examples.GameStrategy.Skills.Fire;
-import Examples.GameStrategy.Skills.Force;
-import Examples.GameStrategy.Skills.Lighting;
+import Examples.GameStrategy.Skills.Fire.Fire;
+import Examples.GameStrategy.Skills.Force.Force;
+import Examples.GameStrategy.Skills.Lighting.Lighting;
 
 public class Wizard extends Race {
 

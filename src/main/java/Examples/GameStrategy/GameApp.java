@@ -16,10 +16,9 @@ public class GameApp {
 		blader.doAttack();
 		System.out.println("\n");
 
-		System.out.println("Postać nosi na sobie: ");
 		//System.out.println("_____________________________");
-		blader.wearingCloths();
-
+		//blader.wearingCloths();
+		System.out.println("Postać nosi na sobie: ");
 		System.out.println("Alchemy UPGRADE: \n");
 		blader.alchemyUpgrade();
 

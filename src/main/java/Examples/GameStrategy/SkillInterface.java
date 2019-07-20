@@ -1,5 +1,5 @@
 package Examples.GameStrategy;
 
 public interface SkillInterface {
-	public void addSkill();
+	void addSkill();
 }
