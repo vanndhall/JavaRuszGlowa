@@ -15,6 +15,6 @@ public abstract class Pizzeria {
 		return pizza;
 	}
 
-	abstract Pizza utworzPizza(String type);
+	public abstract Pizza utworzPizza(String type);
 
 }

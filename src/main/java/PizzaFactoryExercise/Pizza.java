@@ -3,10 +3,10 @@ package PizzaFactoryExercise;
 import java.util.ArrayList;
 
 public abstract class Pizza {
-	String nazwa;
-	String ciasto;
-	String sos;
-	ArrayList dodatki = new ArrayList();
+	protected String nazwa;
+	protected String ciasto;
+	protected String sos;
+	protected ArrayList dodatki = new ArrayList();
 
 	void przygotowanie(){
 		System.out.println(
