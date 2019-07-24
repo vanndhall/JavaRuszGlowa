@@ -19,15 +19,15 @@ public abstract class Pizza {
 		}
 	}
 
-	void pieczenie(){
+	protected void pieczenie(){
 		System.out.println("Pieczenie: 25 minut w temperaturze 350 stopni Celcjusza");
 	}
 
-	void krojenie(){
+	protected void krojenie(){
 		System.out.println("Krojenie pizzy na 8 równych kawałków");
 	}
 
-	void pakowanie(){
+	protected void pakowanie(){
 		System.out.println("Pakowanie pizzyy w oficjalne pudełko naszej sieci Pizzerii");
 	}
 
