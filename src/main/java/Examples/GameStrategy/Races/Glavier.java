@@ -11,8 +11,8 @@ public class Glavier extends Race {
 	public Glavier(){
 
 		clasCharacterInterface = new European();
-		skillInterface1 = new Lighting();
-		skillInterface2 = new Cold();
-		skillInterface3 = new Fire();
+//		skillInterface1 = new Lighting();
+//		skillInterface2 = new Cold();
+//		skillInterface3 = new Fire();
 	}
 }
