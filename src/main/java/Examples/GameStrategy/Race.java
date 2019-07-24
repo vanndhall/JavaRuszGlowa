@@ -85,7 +85,6 @@ public abstract class Race {
 
 		System.out.println("\n____________________\n");
 		Equipment sosLeatherBoots = new LeatherBoots();
-		sosLeatherBoots = new LeatherBoots();
 		sosLeatherBoots = new SealOfStar(sosLeatherBoots);
 		((SealOfStar) sosLeatherBoots).wear();
 	}

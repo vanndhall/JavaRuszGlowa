@@ -15,9 +15,9 @@ public class Wizard extends Race {
 		clasCharacterInterface = new European();
 
 		//Skills
-		skillInterface1 = new Force();
-		skillInterface1 = new Lighting();
-		skillInterface1 = new Fire();
+//		skillInterface1 = new Force();
+//		skillInterface1 = new Lighting();
+//		skillInterface1 = new Fire();
 
 		//Attack
 		name = new Staff();
